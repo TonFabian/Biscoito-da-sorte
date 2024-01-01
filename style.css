@@ -98,8 +98,8 @@ p {
 }
 
 .screen2 .area {
-  width: 293px;
-  height: 107px;
+  width: 29.3rem;
+  height: auto;
 
   background: #e4edf1;
   box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.5);
@@ -109,11 +109,12 @@ p {
   margin-bottom: 1.7rem;
 }
 
-.area p {
+#frase {
+  font-family: "Dancing Script", cursive;
   align-items: center;
   justify-content: center;
-  font-size: 1.4rem;
-  font-weight: 400;
+  font-size: 2rem;
+  font-weight: bolder;
 }
 
 .screen2 .aberto {

@@ -9,6 +9,10 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Biscoito da sorte</title>
   </head>
@@ -18,28 +22,24 @@
         <h1>Qual é a sua sorte de hoje?</h1>
         <p>Abra o biscoito e descubra!</p>
 
-        <div class="biscoito">
+        <div class="biscoito" id="biscoitoContainer">
           <img src="./img/fechado.png" alt="biscoito da sorte fechado" />
         </div>
       </div>
 
-      <div class="screen2">
+      <div class="screen2" id="screen2">
         <h1>Aqui está a sua sorte de hoje:</h1>
-        <div class="area">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            dicta, totam aliquam magni error nobis nam vitae velit pariatur
-            expedita quos aspernatur ea fuga sit iusto inventore! Perferendis,
-            dolorem nemo.
-          </p>
+        <div class="area" id="fraseContainer">
+          <p id="frase"></p>
         </div>
 
-        <div class="aberto">
+        <div class="aberto" id="aberto" style="display: none">
           <img src="./img/opened-cookie.png" alt="biscoito da sorte aberto" />
         </div>
 
-        <button class="btn_again">Abrir outro biscoito</button>
+        <button class="btn_again" id="btnAgain">Abrir outro biscoito</button>
       </div>
     </main>
   </body>
+  <script src="script.js"></script>
 </html>
